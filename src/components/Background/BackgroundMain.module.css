@@ -1,0 +1,29 @@
+.container {
+	position: fixed;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	overflow: hidden;
+}
+.container video {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	animation: videoScale 30s linear infinite;
+}
+
+@keyframes videoScale {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

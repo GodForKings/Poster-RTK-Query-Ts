@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "BTC",
+      "body": "100 000$"
+    },
+    {
+      "id": "2",
+      "title": "ETH",
+      "body": "4 000$"
+    },
+    {
+      "id": "3",
+      "title": "SOL",
+      "body": "500$"
+    },
+    {
+      "id": "4",
+      "title": "TON",
+      "body": "10$"
+    },
+    {
+      "id": "5",
+      "title": "XION",
+      "body": "100$"
+    },
+    {
+      "id": "6",
+      "title": "XRP",
+      "body": "15$"
+    },
+    {
+      "id": "9",
+      "title": "MAJOR",
+      "body": "1000$"
+    },
+    {
+      "id": "10",
+      "title": "EIGEN",
+      "body": "350$"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

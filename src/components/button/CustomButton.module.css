@@ -1,0 +1,132 @@
+.newBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #212121;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 4px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+
+	transition: all 0.2s ease;
+}
+.buttonNewBtn {
+	background-color: transparent;
+	position: relative;
+	display: inline-block;
+	color: var(--impressive-green);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: var(--elastic);
+	letter-spacing: 2px;
+	overflow: hidden;
+	padding: calc(0.5 * var(--elastic)) calc(1 * var(--elastic));
+	transition: 0.2s;
+	border-radius: 4px;
+}
+.button__line {
+	position: absolute;
+	display: inline-block;
+}
+.button__lineTop {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(90deg, transparent, var(--impressive-green));
+}
+.button__lineRight {
+	bottom: 100%;
+	left: 98%;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, var(--impressive-green));
+}
+.button__lineBottom {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(270deg, transparent, var(--impressive-green));
+}
+.button__lineLeft {
+	bottom: -100%;
+	left: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(0deg, transparent, var(--impressive-green));
+}
+
+@media (hover: hover) {
+	.buttonNewBtn:hover .button__lineTop {
+		left: 100%;
+		transition: 0.5s;
+		transition-delay: 0s;
+	}
+
+	.buttonNewBtn:hover .button__lineBottom {
+		right: 100%;
+		transition: 0.5s;
+		transition-delay: 0.3s;
+	}
+
+	.buttonNewBtn:hover .button__lineLeft {
+		bottom: 0;
+		transition: 0.5s;
+		transition-delay: 0.2s;
+	}
+	.buttonNewBtn:hover .button__lineRight {
+		bottom: -100%;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+	}
+
+	.buttonNewBtn:hover {
+		transition-delay: 0.4s;
+		box-shadow: 0 0 10px var(--impressive-green),
+			0 0 40px var(--impressive-green), 0 0 90px var(--impressive-green);
+		background-color: var(--impressive-green);
+		color: #212121;
+	}
+	.newBtn:hover {
+		transform: translateY(3px);
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+	}
+}
+
+@media (hover: none) {
+	.buttonNewBtn:active .button__lineTop {
+		left: 100%;
+		transition: 0.5s;
+		transition-delay: 0s;
+	}
+
+	.buttonNewBtn:active .button__lineBottom {
+		right: 100%;
+		transition: 0.5s;
+		transition-delay: 0.3s;
+	}
+
+	.buttonNewBtn:active .button__lineLeft {
+		bottom: 0;
+		transition: 0.5s;
+		transition-delay: 0.2s;
+	}
+	.buttonNewBtn:active .button__lineRight {
+		bottom: -100%;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+	}
+
+	.buttonNewBtn:active {
+		transition-delay: 0.4s;
+		box-shadow: 0 0 10px var(--impressive-green),
+			0 0 40px var(--impressive-green), 0 0 90px var(--impressive-green);
+		background-color: var(--impressive-green);
+		color: #212121;
+	}
+	.newBtn:active {
+		transform: translateY(3px);
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+	}
+}
