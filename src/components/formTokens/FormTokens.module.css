@@ -21,6 +21,13 @@
 	display: flex;
 	align-items: center;
 }
-.view__post__info span {
+.view__post__info span:nth-child(1) {
 	width: 50%;
+	color: #37ff00;
+}
+.view__post__info span:nth-child(2) {
+	font-size: 3rem;
+	color: #fff;
+	width: 50%;
+	font-weight: 400;
 }

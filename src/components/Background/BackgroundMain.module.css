@@ -13,7 +13,7 @@
 	min-height: 100%;
 	min-width: 100%;
 	object-fit: cover;
-	animation: videoScale 30s linear infinite;
+	animation: videoScale 15s linear infinite;
 }
 
 @keyframes videoScale {

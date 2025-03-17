@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import style from './BackgroundMain.module.css'
-import video from '../../assets/videos/bg-main.mp4'
+import video from '../../assets/videos/bg-cb.mp4'
 
 const BackgroundMain: FC = () => {
 	return (
