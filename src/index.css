@@ -2,6 +2,7 @@
 	--elastic: calc(1vw + 1vh);
 	--color-sd: rgba(42, 173, 9, 0.4);
 	--impressive-green: rgb(11, 207, 1);
+	--dark-mode: #212121;
 }
 #root {
 	min-height: 1000px;

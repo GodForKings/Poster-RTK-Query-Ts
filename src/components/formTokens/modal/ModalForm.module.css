@@ -1,0 +1,45 @@
+.modalContainer {
+	position: fixed;
+	inset: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: -100;
+	display: none;
+}
+.activeModal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+.modalForm {
+	background-color: rgba(15, 15, 15, 1);
+	height: 500px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem;
+}
+.modalForm .inputBox {
+	position: relative;
+	width: 100%;
+	margin-block: 1rem;
+}
+.modalForm .inputBox input,
+.modalForm .inputBox textarea {
+	position: relative;
+	width: 100%;
+	padding: 12px 20px;
+	background: rgb(39, 39, 39);
+	border: 1px solid var(--impressive-green);
+	border-radius: 10px;
+	font-size: 1.5rem;
+	color: #fff;
+	box-shadow: none;
+	outline: none;
+}
+.modalForm .inputBox textarea {
+	height: 200px;
+}

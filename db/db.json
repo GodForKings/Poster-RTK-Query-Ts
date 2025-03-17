@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "BTC",
-      "body": "100 000$"
+      "body": "85 000$"
     },
     {
       "id": "2",
@@ -38,7 +38,17 @@
     {
       "id": "10",
       "title": "EIGEN",
-      "body": "350$"
+      "body": "200$"
+    },
+    {
+      "id": "1c38",
+      "title": "DOGS",
+      "body": "0.1$"
+    },
+    {
+      "id": "4498",
+      "title": "NEIRO",
+      "body": "1$"
     }
   ],
   "comments": [

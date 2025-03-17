@@ -17,7 +17,7 @@ const PostContainer: FC = () => {
 		pollingInterval: 5000, //Интервал запросов на сервер
 	})
 	const { data: player } = queryUserAPI.useFetchOneUserQuery(2) // получение по ID
-	const { data: device } = deviceApi.useFetchAllDeviceQuery(1) //запрос получения девайсов
+	// const { data: device } = deviceApi.useFetchAllDeviceQuery(1) //запрос получения девайсов
 
 	// useEffect(() => {
 	// 	setTimeout(() => {

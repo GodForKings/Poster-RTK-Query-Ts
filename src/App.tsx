@@ -6,6 +6,7 @@ import { analogFetchUsers, fetchUsers } from './store/reducers/ActionCreators'
 import PostContainer from './components/PostContainer/PostContainer'
 import BackgroundMain from './components/Background/BackgroundMain'
 import NavBar from './components/navbar/NavBar'
+import Footer from './components/footer/Footer'
 
 function App() {
 	// const [title, setTitle] = useState<string>(`I'm work`)
@@ -32,6 +33,7 @@ function App() {
 				lvl up
 			</button> */}
 			<PostContainer></PostContainer>
+			<Footer></Footer>
 		</div>
 	)
 }

@@ -11,6 +11,16 @@
 	padding: 20px;
 	margin-bottom: 10px;
 	border: 3px solid var(--impressive-green);
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+}
+.view__post__info {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+}
+.view__post__info span {
+	width: 50%;
 }
